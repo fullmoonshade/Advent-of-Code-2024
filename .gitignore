@@ -1,0 +1,59 @@
+# Ignore Visual Studio-specific files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.dbmdl
+*.jfm
+
+# Ignore build outputs
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# Ignore temporary files
+*.tmp
+*.log
+*.lock
+*.tlog
+*.idb
+*.pdb
+
+# Ignore package manager directories
+node_modules/
+packages/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Python virtual environments (if applicable)
+venv/
+.env/
+
+# Ignore compiled files
+*.dll
+*.exe
+*.so
+*.dylib
+*.pyc
+*.pyo
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore JetBrains IDEs (if used)
+.idea/
+
+# Ignore custom Advent of Code outputs
+output/
+results/
